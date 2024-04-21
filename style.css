@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr;
+}
+
+/* Side Bar */
+
+.side-bar {
+    grid-column: 1 / 2;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+/* Main Content */
+
+.main-content {
+    grid-column: 2 / 3;
+}
+
+
+/* Right Bar */
+
+.right-bar {
+    grid-column: 3 / 4;
+}
+
+#profile-photo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.statistics-photo {
+    width: 300px;
+}
+
