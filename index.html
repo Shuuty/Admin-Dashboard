@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Admin DashBoard</title>
+
 </head>
 
 <body>
@@ -15,8 +16,8 @@
 
             <div class="side-bar">
                 <div class="logo">
-                    <img src="icons/side-bar/cat.svg" class="icon cat">
-                    <h1>DashBoard</h1>
+                    <img src="icons/side-bar/crystal-ball.svg" class="icon ball">
+                    <h1 id="logo-h1">DashBoard</h1>
                 </div>
 
                 <div class="side-bar-access">
@@ -75,16 +76,17 @@
 
                 <div class="header">
                     <div class="search-bar">
-                        <form>
                             <input type="text" class="input-search-bar">
-                            <button type="submit" id="search-button">
-                        </form>
+                            <button type="submit" id="search-button" value="">
                     </div>
 
                     <div class="profile">
                         <div class="profile-info">
-                            <p>Shuuty</p>
-                            <img src="icons/main-content/perfil.jpg" alt="a sexy cat" id="profile-photo">
+                            <img src="icons/main-content/bell-ring.svg" alt="a bell-ring" class="icon bell">
+                            <div class="profile-cont"> 
+                                <p id="profile-name">Shuuty</p>
+                                <img src="icons/main-content/perfil.jpg" alt="a sexy cat" id="profile-photo">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,23 +95,51 @@
 
                 <div class="card-container">
                     <div class="card-grid-container">
-                        <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif" class="card-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum.</div>
-                        <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif" class="card-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum.</div>
-                        <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif" class="card-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum.</div>
-                        <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif" class="card-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum.</div>
-                        <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif" class="card-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum.</div>
+                        <div class="card"><img src="icons/main-content/random.jpg" class="card-img"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit magnam doloremque, sed iste consequuntur praesentium tempore et necessitatibus harum expedita tempora, fugit ea ullam facilis rerum enim recusandae quo non.</p></div>
+                        <div class="card"><img src="icons/main-content/random.jpg" class="card-img"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ipsa eveniet perspiciatis debitis temporibus architecto ipsum, ut in illum maiores! Optio molestiae ad odit distinctio nam rerum. Cumque, praesentium temporibus.</p></div>
+                        <div class="card"><img src="icons/main-content/random.jpg" class="card-img"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem iusto, laborum officiis voluptas facilis tenetur dolor suscipit blanditiis perferendis id sunt? Tempora, consequatur cumque. Provident amet cum neque ducimus?</p></div>
+                        <div class="card"><img src="icons/main-content/random.jpg" class="card-img"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fugiat optio numquam deserunt dicta, illum ducimus voluptatum et! Repellendus id ipsa perferendis dicta cupiditate sed velit labore totam ab cum?</p></div>
+                        <div class="card"><img src="icons/main-content/random.jpg" class="card-img"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ratione illo modi aperiam voluptate tenetur sequi. Dolor dolorum illum sequi dolore! Quidem quasi, modi similique neque ut quibusdam repellendus earum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet deleniti minima ipsam libero aliquid ab tenetur nihil magnam animi, voluptatem necessitatibus ducimus corporis iure harum hic fugit molestiae. Voluptatem.</p></div>
                     </div>
                 </div>  
                 
+                <div class="right-bar">
+                    <div class="trending-container">
+                        <p>Trending</p>
+                            <div class="trending-card">
+                                <img src="icons/main-content/1.jpg" class="trending-photo" alt="A black and white cat with sunglasses">
+                                <p class="trending-post">This page is amazing!</p>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/main-content/2.jpg" class="trending-photo" alt="A white and orange cat with sunglasses">
+                                <p class="trending-post">I think the same!</p>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/main-content/3.jpg" class="trending-photo" alt="A girl with pink hair wearing sunglasses">
+                                <p class="trending-post">Cats will conquer us one day!</p>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/main-content/4.jpg" class="trending-photo" alt="A black cat with squinted eyes and a black hat">
+                                <p class="trending-post">The one above is not wrong</p>
+                            </div>
+                    </div>
 
-                <div class="trending-container">
-                        <div class="trending-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore veritatis architecto esse rerum odio cupiditate vitae aperiam, quibusdam, blanditiis quidem quam a tempora animi illo aliquam dolore! Dolore, maiores? Similique?</div>
-                        <div class="trending-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore veritatis architecto esse rerum odio cupiditate vitae aperiam, quibusdam, blanditiis quidem quam a tempora animi illo aliquam dolore! Dolore, maiores? Similique?</div>
-                        <div class="trending-card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore veritatis architecto esse rerum odio cupiditate vitae aperiam, quibusdam, blanditiis quidem quam a tempora animi illo aliquam dolore! Dolore, maiores? Similique?</div>
-                </div>
-
-                <div class="statistics-container">
-                    <div class="statistics-card"><img src="" alt="statistics" class="statistics-photo"></div>
+                    <div class="statistics-container">
+                        <p>Statistics</p>
+                        <div class="statistics-day"><p>Daily visits: 
+                            <br>1.2k</p> 
+                            <img src="icons/main-content/arrow-up-bold-outline.svg" class="icon">
+                        </div>
+                        <div class="statistics-week"><p>Weekly Visits: 
+                            <br> 9.9k</p> <img src="icons/main-content/arrow-down-bold-outline.svg" class="icon">
+                        </div>
+                        <div class="statistics-month"><p> Visits: 
+                            <br>170k</p> <img src="icons/main-content/arrow-up-bold-outline.svg" class="icon">
+                        </div>
+                        <div class="statistics-year"><p>Annual Visits: 
+                            <br> 2.6M</p> <img src="icons/main-content/arrow-down-bold-outline.svg" class="icon">
+                        </div>
+                    </div>
                 </div>
 
             </div>
